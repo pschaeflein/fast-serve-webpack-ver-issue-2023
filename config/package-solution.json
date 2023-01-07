@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "1-16-1-client-side-solution",
+    "id": "cfe750df-ca2d-444a-b9e8-6d861cd9e152",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "1-16-1 description"
+      },
+      "longDescription": {
+        "default": "1-16-1 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "1-16-1 Feature",
+        "description": "The feature that activates elements of the 1-16-1 solution.",
+        "id": "c5f95877-4f05-4dd3-af09-52e6a1263a84",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/1-16-1.sppkg"
+  }
+}
